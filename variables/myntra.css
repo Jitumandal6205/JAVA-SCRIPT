@@ -1,0 +1,11 @@
+.button_1{
+    background-color: lightgreen;
+    border-radius: 20px;
+    border: none;
+}
+.wishlist{
+    margin-left: 15px;
+    border-radius: 7px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
