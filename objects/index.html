@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>objects</title>
+</head>
+<body>
+    <script>
+        // let product = {
+        //     name: 'Laptop',
+        //     price: 1200,
+        //     color: 'Black',
+        //     display: '15 inches',
+        //     storage: 'SSD',
+        //     operatingSystem: 'Windows 10',
+        //     description: 'High-end laptop with excellent performance.',
+        //     getDetails: function() {
+        //         return `Product Name: ${this.name}, Price: ${this.price}, Color: ${this.color}, Display: ${this.display}, Storage: ${this.storage}, Operating System: ${this.operatingSystem}, Description: ${this.description}`;
+        //     }
+        // }
+        // console.log(product.getDetails());
+
+        let products = {
+            company: 'Apple',
+            price: 861,
+            'item-name': 'iPhone 12',
+            displayPrice:function(){
+                console.log(`price of the product is ${this.price}`)
+
+            }
+        };
+        products.displayPrice();
+    </script>
+</body>
+</html>
